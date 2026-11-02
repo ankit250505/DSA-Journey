@@ -12,14 +12,13 @@ This section contains my solutions to 25 pattern-printing problems designed to s
 
 ## Progress Tracker
 
-| Question | Pattern | Status |
+| Question  |        Pattern        | Status    |
 |---|---|---|
-| Q01 | Single Star | Pending |
-| Q02 | Four Stars | Pending |
-| Q03 | N Stars | Pending |
-| Q04 | Square Pattern | Pending |
-| Q05 | Increasing Triangle | Pending |
-| Q06–Q25 | Different Star, Number and Alphabet Patterns | Pending |
+| Q01 - Q05 | basic                 | completed |
+| Q05 - Q10 | star pattern          | Pending   |
+| Q10 - Q15 | N Stars               | Pending   |
+| Q15 - Q20 | nested Pattern        | Pending   |
+| Q20 - Q25 | alphanumeric patterns | Pending   |
 
 ## My Learning Approach
 
