@@ -16,9 +16,9 @@ This section contains my solutions to 25 pattern-printing problems designed to s
 |---|---|---|
 | Q01 - Q05 | basic                 | completed |
 | Q05 - Q10 | star pattern          | completed |
-| Q10 - Q15 | N Stars               | Pending   |
-| Q15 - Q20 | nested Pattern        | Pending   |
-| Q20 - Q25 | alphanumeric patterns | Pending   |
+| Q10 - Q15 | N Stars               | completed |
+| Q15 - Q20 | nested Pattern        | completed |
+| Q20 - Q25 | alphanumeric patterns | completed |
 
 ## My Learning Approach
 

@@ -484,7 +484,7 @@ After solving each question:
 
 # Final Reflection
 
-**Total Questions Completed:** 10 / 25
+**Total Questions Completed:** 25 / 25
 
 **Most Challenging Question:**
 
