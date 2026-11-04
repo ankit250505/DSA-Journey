@@ -1,0 +1,24 @@
+---
+description: Keep the DSA question tracker accurate as problems are solved
+alwaysApply: true
+---
+
+# DSA Progress Tracking
+
+- Treat `PROGRESS.md` in the project root as the source of truth for per-question progress.
+- When the learner explicitly says a problem is solved/completed, or clearly confirms the final solution works, update that question's status to **Completed**, add a brief learning note, and append a dated entry to the session log.
+- When the learner reports completing practice files in a topic folder, review the files to identify each exercise and record the topic and exercises in the dated session log. Treat their explicit report that they practiced/completed them as confirmation; do not infer completion from file presence alone.
+- When they are still asking for hints, debugging, or whether an approach is correct. Do not infer completion just because code was discussed or corrected.
+- If the question number is unclear, record the pattern description under “Worked on in this chat — completion not confirmed”; do not guess a question number.
+- Preserve prior entries. Do not mark all questions complete based only on the old grouped summary in `00-Logic-Building/readme.md`.
+- After updating progress, tell the learner which question/status was recorded.
+
+## Progress recorded — 2026-11-04
+
+- **Topic learned:** C++ functions.
+- **Practice completed** in `functions/`:
+  - Sum the digits of a number using a function (`practice.cpp`).
+  - Calculate the binomial coefficient nCr using a factorial helper function (`practice2.cpp`).
+  - Check whether a number is prime (`practice3.cpp`).
+  - Print all prime numbers from 1 through N (`practice4.cpp`).
+- **Concepts practiced:** function declarations/definitions, parameters, return values, helper-function reuse, and using functions to separate a task from `main`.
