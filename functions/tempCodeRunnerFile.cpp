@@ -1,32 +1,24 @@
-//print all the prime numbers from 1 to N
-
+// Fibonacci series for N terms
 #include <iostream>
 using namespace std;
 
-void allPrimeNumbers(int N){
-    for(int i=2;i<=N;i++){
 
-        bool isPrime = true;
-
-        for(int j=2;j<i;j++){
-            if(i%j==0){
-                isPrime = false;
-                break;
-            }
-        }
-
-        if(isPrime){
-            cout << i << " ";
-        }
+void FibonacciSeries(int n){
+    int a = 0;
+    int b = 1;
+    cout << a << "\t" << b << "\t";
+    for(int i=3;i<=n;i++){
+        int c = a + b;
+        cout << c << "\t";
+        a = b;
+        b = c;
     }
 }
-
 int main() {
-    int N;
-    cout << "Enter a range: ";
-    cin >> N;
+    int n;
+    cout << "Enter n series: ";
+    cin >> n;
 
-    allPrimeNumbers(N);
-    cout << endl;
+    FibonacciSeries(n);
     return 0;
 }
